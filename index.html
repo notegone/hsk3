@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>HSK3 random char</title>
+  </head>
+  <body>
+
+
+	<div class="container">
+
+		
+		<div id="myRandomDiv" class="container-fluid" style="font-size:100px">
+		</div>
+
+		<div id="myRandomPinyinDiv" class="container-fluid" style="font-size:50px">
+		</div>
+
+		<div id="myRandomDefDiv" class="container-fluid">
+
+		</div>
+		<br>
+		<a id="myButton" class="btn btn-primary" href="#" role="button">HSK3</a>
+	</div>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+	
+	
+	<script type="text/javascript" charset="utf-8">
+
+
+	var hsk3 = ['板', '炼', '极', '超', '段', '越', '接', '阳', '烧', '阿', '附', '康', '提', '除', '碗', '澡', '糕', '糖', '园', '趣', '图', '怕', '急', '怪', '包', '总', '跟', '查', '化', '万', '且', '世', '业', '黄', '半', '季', '主', '然', '举', '单', '南', '难', '久', '乎', '安', '汁', '求', '搬', '舒', '定', '实', '照', '历', '般', '角', '于', '熊', '云', '解', '地', '甜', '当', '用', '坏', '画', '树', '界', '节', '\ufeff', '根', '害', '容', '宾', '厨', '惯', '参', '又', '双', '需', '发', '叔', '变', '口', '句', '示', '礼', '河', '只', '鼻', '史', '虽', '祝', '法', '注', '花', '静', '心', '必', '忘', '借', '城', '鞋', '疼', '梯', '健', '感', '检', '愿', '层', '居', '伞', '选', '秋', '种', '爬', '爷', '通', '山', '位', '低', '片', '周', '牙', '空', '遇', '物', '突', '放', '音', '故', '使', '特', '敢', '草', '像', '数', '瘦', '文', '境', '楚', '响', '鲜', '楼', '轻', '较', '辆', '邮', '哭', '邻', '信', '议', '方', '记', '讲', '词', '级', '旧', '该', '须', '顾', '练', '终', '结', '绩', '声', '盘', '戏', '铁', '铅', '绿', '成', '或', '目', '直', '相', '者', '其', '典', '而', '迟', '银', '冒', '笔', '才', '耳', '扫', '清', '啊', '调', '聪', '把', '易', '啤', '风', '渴', '萄', '春', '筷', '简', '复', '夏', '酒', '算', '冬', '冰', '决', '头', '净', '普', '奇', '葡', '网', '护', '锻', '如', '担', '育', '镜', '择', '箱', '胖', '环', '拿', '街', '差', '己', '衫', '衬', '重', '满', '刚', '饱', '更', '饿', '蓝', '刮', '刷', '刻', '香', '姨', '婚', '短', '矮', '市', '被', '脚', '带', '灯', '闻', '力', '办', '裙', '理', '帽', '脸', '裤', '换', '据', '演', '干', '平', '腿', '末', '应', '朵', '马', '加', '李', '努', '束', '赛', '条', '蕉', '骑', '鸟']
+    var hsk3_pinyin = ['bǎn', 'liàn', 'jí', 'chāo', 'duàn', 'yuè', 'jiē', 'yáng', 'shāo', 'ā', 'fù', 'kāng', 'tí', 'chú', 'wǎn', 'zǎo', 'gāo', 'táng', 'yuán', 'qù', 'tú', 'pà', 'jí', 'guài', 'bāo', 'zǒng', 'gēn', 'chá', 'huà', 'wàn', 'qiě', 'shì', 'yè', 'huáng', 'bàn', 'jì', 'zhǔ', 'rán', 'jǔ', 'dān', 'nán', 'nán', 'jǐu', 'hū', 'ān', 'zhī', 'qíu', 'bān', 'shū', 'dìng', 'shí', 'zhào', 'lì', 'bān', 'jiǎo', 'yú', 'xióng', 'yún', 'jiě', 'dì', 'tián', 'dāng', 'yòng', 'huài', 'huà', 'shù', 'jiè', 'jié', '\ufeff', 'gēn', 'hài', 'róng', 'bīn', 'chú', 'guàn', 'cān', 'yòu', 'shuāng', 'xū', 'fā', 'shū', 'biàn', 'kǒu', 'jù', 'shì', 'lǐ', 'hé', 'zhǐ', 'bí', 'shǐ', 'sūi', 'zhù', 'fǎ', 'zhù', 'huā', 'jìng', 'xīn', 'bì', 'wàng', 'jiè', 'chéng', 'xié', 'téng', 'tī', 'jiàn', 'gǎn', 'jiǎn', 'yuàn', 'céng', 'jū', 'sǎn', 'xuǎn', 'qīu', 'zhǒng', 'pá', 'yé', 'tōng', 'shān', 'wèi', 'dī', 'piàn', 'zhōu', 'yá', 'kōng', 'yù', 'wù', 'tū', 'fàng', 'yīn', 'gù', 'shǐ', 'tè', 'gǎn', 'cǎo', 'xiàng', 'shù', 'shòu', 'wén', 'jìng', 'chǔ', 'xiǎng', 'xiān', 'lóu', 'qīng', 'jiào', 'liàng', 'yóu', 'kū', 'lín', 'xìn', 'yì', 'fāng', 'jì', 'jiǎng', 'cí', 'jí', 'jìu', 'gāi', 'xū', 'gù', 'liàn', 'zhōng', 'jié', 'jī', 'shēng', 'pán', 'xì', 'tiě', 'qiān', 'lv̀', 'chéng', 'huò', 'mù', 'zhí', 'xiāng', 'zhě', 'qí', 'diǎn', 'ér', 'chí', 'yín', 'mào', 'bǐ', 'cái', 'ěr', 'sǎo', 'qīng', 'a', 'diào', 'cōng', 'bǎ', 'yì', 'pí', 'fēng', 'kě', 'táo', 'chūn', 'kuài', 'jiǎn', 'fù', 'xià', 'jǐu', 'suàn', 'dōng', 'bīng', 'jué', 'tóu', 'jìng', 'pǔ', 'qí', 'pú', 'wǎng', 'hù', 'duàn', 'rú', 'dàn', 'yù', 'jìng', 'zé', 'xiāng', 'pàng', 'huán', 'ná', 'jiē', 'chà', 'jǐ', 'shān', 'chèn', 'zhòng', 'mǎn', 'gāng', 'bǎo', 'gèng', 'è', 'lán', 'guā', 'shuā', 'kè', 'xiāng', 'yí', 'hūn', 'duǎn', 'ǎi', 'shì', 'bèi', 'jiǎo', 'dài', 'dēng', 'wén', 'lì', 'bàn', 'qún', 'lǐ', 'mào', 'liǎn', 'kù', 'huàn', 'jù', 'yǎn', 'gān', 'píng', 'tǔi', 'mò', 'yìng', 'duǒ', 'mǎ', 'jiā', 'lǐ', 'nǔ', 'shù', 'sài', 'tiáo', 'jiāo', 'qí', 'niǎo']
+    var hsk3_def = ['board', 'to refine', 'extremely', 'to exceed', 'surname Duan', 'generic word for peoples or states of south China or south Asia at different historical periods', 'to receive', 'positive (electric.)', 'to burn', 'abbr. for Afghanistan 阿富汗[A1 fu4 han4]', 'variant of 附[fu4]', 'surname Kang', 'to carry (hanging down from the hand)', 'to get rid of', 'variant of 碗[wan3]', 'bath', 'cake', 'sugar', 'surname Yuan', 'interesting', 'diagram', 'surname Pa', 'urgent', 'bewildering', 'surname Bao', 'always', 'heel', 'surname Zha', 'variant of 花[hua1]', 'see 万俟[Mo4 qi2]', 'and', 'surname Shi', 'surname Ye', 'surname Huang or Hwang', 'half', 'surname Ji', 'owner', 'correct', 'variant of 舉|举[ju3]', 'surname Shan', 'surname Nan', 'difficult (to...)', '(long) time', '(classical particle similar to 於|于[yu2]) in', 'surname An', 'juice', 'to seek', 'to move (i.e. relocate oneself)', 'surname Shu', 'to set', 'real', 'variant of 照[zhao4]', 'old variant of 曆|历[li4]', 'sort', 'surname Jue', 'surname Yu', 'surname Xiong', '(classical) to say', 'surname Xie', '-ly', 'sweet', '(onom.) dong', 'to use', 'bad', 'to draw', 'tree', 'boundary', 'see 節骨眼|节骨眼[jie1 gu5 yan3]', 'n/a', 'root', 'to do harm to', 'surname Rong', 'visitor', 'old variant of 廚|厨[chu2]', 'accustomed to', 'to take part in', '(once) again', 'surname Shuang', 'to require', 'to send out', 'uncle', 'to change', 'mouth', 'variant of 勾[gou1]', 'to show', 'surname Li', 'river', 'only', 'nose', 'surname Shi', 'although', 'surname Zhu', 'variant of 法[fa3]', 'to inject', 'surname Hua', 'still', 'heart', 'certainly', 'to forget', 'to lend', 'city walls', 'shoe', '(it) hurts', 'ladder', 'healthy', 'to feel', 'to check', 'honest', 'layer', 'surname Ju', 'umbrella', 'to choose', 'surname Qiu', 'seed', 'to crawl', 'grandpa', 'to go through', 'surname Shan', 'position', 'low', 'disk', 'surname Zhou', 'tooth', 'empty', 'surname Yu', 'thing', 'to dash', 'to put', 'sound', 'happening', 'to make', 'special', 'to dare', 'variant of 草[cao3]', 'to resemble', 'to count', 'thin', 'surname Wen', 'border', 'surname Chu', 'echo', 'variant of 鮮|鲜[xian3]', 'surname Lou', 'light', 'to compare', 'classifier for vehicles', 'post (office)', 'to cry', 'neighbor', 'letter', 'to comment on', 'surname Fang', 'to record', 'to speak', 'old variant of 詞|词[ci2]', 'level', 'old', 'should', 'must', 'surname Gu', 'to practice', 'end', '(of a plant) to produce (fruit or seeds)', 'to spin (hemp etc)', 'sound', 'plate', 'variant of 戲|戏[xi4]', 'surname Tie', 'old variant of 鉛|铅[qian1]', 'n/a', 'surname Cheng', 'maybe', 'eye', 'surname Zhi', 'surname Xiang', '(after a verb or adjective) one who (is) ...', 'his', 'canon', 'and', 'surname Chi', 'silver', 'old variant of 冒[mao4]', 'pen', 'ability', 'ear', 'to sweep', "Qing or Ch'ing dynasty of Imperial China (1644-1911)", 'interjection of surprise', 'to transfer', 'quick at hearing', 'to hold', 'surname Yi', 'beer', 'wind', 'thirsty', 'see 葡萄[pu2 tao5]', 'old variant of 春[chun1]', 'chopstick', 'simple', 'to go and return', 'the Xia or Hsia dynasty c. 2000 BC', 'wine (esp. rice wine)', 'to regard as', 'winter', 'ice', 'to decide', 'head', 'variant of 淨|净[jing4]', 'general', 'odd (number)', 'Portugal', 'net', 'to protect', 'to forge', 'as', 'to undertake', 'to have children', 'mirror', 'to select', 'box', 'healthy', 'surname Huan', 'old variant of 拿[na2]', 'street', 'difference', 'self', 'garment', '(of garments) against the skin', 'to repeat', 'Manchu ethnic group', 'hard', 'to eat till full', 'to change or replace', 'to be hungry', 'surname Lan', 'to scrape', 'to brush', 'quarter (hour)', 'fragrant', "mother's sister", 'to marry', 'short', 'low', 'market', 'quilt', 'foot', 'band', 'lamp', 'surname Wen', 'surname Li', 'to do', 'old variant of 裙[qun2]', 'texture', 'old variant of 帽[mao4]', 'face', 'variant of 褲|裤[ku4]', 'to exchange', 'variant of 據|据[ju4]', 'to develop', 'old variant of 乾|干[gan1]', 'surname Ping', 'leg', 'tip', 'surname Ying', 'flower', 'surname Ma', 'abbr. for Canada 加拿大[Jia1 na2 da4]', 'surname Li', 'to exert', 'surname Shu', 'to compete', 'strip', 'banana', '(Taiwan) saddle horse', 'variant of 屌[diao3]']
+
+
+		var randomDiv = document.getElementById("myRandomDiv");
+		var randomPinyinDiv = document.getElementById("myRandomPinyinDiv");
+		var randomDefDiv = document.getElementById("myRandomDefDiv");
+		randomDiv.innerHTML = "三"; 
+		randomPinyinDiv.innerHTML= "sān";
+		randomDefDiv.innerHTML= "Three";
+		//一二三四五Yī'èrsānsìwǔ
+
+
+		document.getElementById("myButton").addEventListener("click", function() {
+			  randomIndex = Math.ceil((Math.random()*hsk3.length-1));
+			  newText = hsk3[randomIndex];
+			  newTextPinyin = hsk3_pinyin[randomIndex];
+			  newTextDef = hsk3_def[randomIndex];
+			  randomDiv.innerHTML = newText;
+			  randomPinyinDiv.innerHTML = newTextPinyin;
+			  randomDefDiv.innerHTML = newTextDef;
+		});
+	</script> 
+  </body>
+</html>
+
+
+
+   
